@@ -15,6 +15,11 @@ struct QuestionDifficulty {
         self.difficulty = QuestionDifficulty.difficulty(fromString: stringDifficulty)
         self.questions = QuestionDifficulty.mapToQuestionModel(questions)
     }
+
+    init(difficulty: Difficulty, questions: [QuestionModel]) {
+        self.difficulty = difficulty
+        self.questions = questions
+    }
 }
 
 private extension QuestionDifficulty {

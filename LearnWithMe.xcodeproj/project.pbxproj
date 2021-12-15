@@ -28,9 +28,6 @@
 		373BD693275D271E00CCE81C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BD692275D271E00CCE81C /* AppDelegate.swift */; };
 		373BD69C275D272000CCE81C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373BD69B275D272000CCE81C /* Assets.xcassets */; };
 		373BD69F275D272000CCE81C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373BD69D275D272000CCE81C /* LaunchScreen.storyboard */; };
-		373BD6AA275D272000CCE81C /* LearnWithMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BD6A9275D272000CCE81C /* LearnWithMeTests.swift */; };
-		373BD6B4275D272000CCE81C /* LearnWithMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BD6B3275D272000CCE81C /* LearnWithMeUITests.swift */; };
-		373BD6B6275D272000CCE81C /* LearnWithMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BD6B5275D272000CCE81C /* LearnWithMeUITestsLaunchTests.swift */; };
 		373BD6C3275D2AE200CCE81C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 373BD6C2275D2AE200CCE81C /* GoogleService-Info.plist */; };
 		373BD6C6275D2F9200CCE81C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 373BD6C5275D2F9200CCE81C /* FirebaseAnalytics */; };
 		373BD6C8275D2F9200CCE81C /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 373BD6C7275D2F9200CCE81C /* FirebaseAnalyticsSwift-Beta */; };
@@ -72,6 +69,7 @@
 		3744F2B32763A4A2003DDC59 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3744F2AD2763A4A2003DDC59 /* QuizViewController.swift */; };
 		3744F2B42763A4A2003DDC59 /* QuizInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3744F2AE2763A4A2003DDC59 /* QuizInteractor.swift */; };
 		3744F2B52763A4A2003DDC59 /* QuizWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3744F2AF2763A4A2003DDC59 /* QuizWireframe.swift */; };
+		3754E121276A990B008B0B4B /* QuestionsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3754E120276A990B008B0B4B /* QuestionsServiceTests.swift */; };
 		37600E45275F909E00949788 /* HomeCollectionCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37600E44275F909E00949788 /* HomeCollectionCellItem.swift */; };
 		376025C527601225007E6967 /* Combine+Progressable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376025C427601225007E6967 /* Combine+Progressable.swift */; };
 		376025C827601272007E6967 /* Progressable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376025C727601272007E6967 /* Progressable.swift */; };
@@ -82,13 +80,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		373BD6A6275D272000CCE81C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 373BD687275D271E00CCE81C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 373BD68E275D271E00CCE81C;
-			remoteInfo = LearnWithMe;
-		};
-		373BD6B0275D272000CCE81C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 373BD687275D271E00CCE81C /* Project object */;
 			proxyType = 1;
@@ -122,10 +113,6 @@
 		373BD69E275D272000CCE81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		373BD6A0275D272000CCE81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		373BD6A5275D272000CCE81C /* LearnWithMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnWithMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		373BD6A9275D272000CCE81C /* LearnWithMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnWithMeTests.swift; sourceTree = "<group>"; };
-		373BD6AF275D272000CCE81C /* LearnWithMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnWithMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		373BD6B3275D272000CCE81C /* LearnWithMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnWithMeUITests.swift; sourceTree = "<group>"; };
-		373BD6B5275D272000CCE81C /* LearnWithMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnWithMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		373BD6C2275D2AE200CCE81C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		373BD6D0275D338400CCE81C /* BaseWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
 		373BD6D1275D338400CCE81C /* FormatterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterInterface.swift; sourceTree = "<group>"; };
@@ -161,6 +148,7 @@
 		3744F2AD2763A4A2003DDC59 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		3744F2AE2763A4A2003DDC59 /* QuizInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizInteractor.swift; sourceTree = "<group>"; };
 		3744F2AF2763A4A2003DDC59 /* QuizWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizWireframe.swift; sourceTree = "<group>"; };
+		3754E120276A990B008B0B4B /* QuestionsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsServiceTests.swift; sourceTree = "<group>"; };
 		37600E44275F909E00949788 /* HomeCollectionCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionCellItem.swift; sourceTree = "<group>"; };
 		376025C427601225007E6967 /* Combine+Progressable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+Progressable.swift"; sourceTree = "<group>"; };
 		376025C727601272007E6967 /* Progressable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progressable.swift; sourceTree = "<group>"; };
@@ -184,13 +172,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		373BD6A2275D272000CCE81C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		373BD6AC275D272000CCE81C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,7 +258,6 @@
 			children = (
 				373BD691275D271E00CCE81C /* LearnWithMe */,
 				373BD6A8275D272000CCE81C /* LearnWithMeTests */,
-				373BD6B2275D272000CCE81C /* LearnWithMeUITests */,
 				373BD690275D271E00CCE81C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -287,7 +267,6 @@
 			children = (
 				373BD68F275D271E00CCE81C /* LearnWithMe.app */,
 				373BD6A5275D272000CCE81C /* LearnWithMeTests.xctest */,
-				373BD6AF275D272000CCE81C /* LearnWithMeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -306,18 +285,9 @@
 		373BD6A8275D272000CCE81C /* LearnWithMeTests */ = {
 			isa = PBXGroup;
 			children = (
-				373BD6A9275D272000CCE81C /* LearnWithMeTests.swift */,
+				3754E120276A990B008B0B4B /* QuestionsServiceTests.swift */,
 			);
 			path = LearnWithMeTests;
-			sourceTree = "<group>";
-		};
-		373BD6B2275D272000CCE81C /* LearnWithMeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				373BD6B3275D272000CCE81C /* LearnWithMeUITests.swift */,
-				373BD6B5275D272000CCE81C /* LearnWithMeUITestsLaunchTests.swift */,
-			);
-			path = LearnWithMeUITests;
 			sourceTree = "<group>";
 		};
 		373BD6CD275D336C00CCE81C /* Modules */ = {
@@ -569,24 +539,6 @@
 			productReference = 373BD6A5275D272000CCE81C /* LearnWithMeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		373BD6AE275D272000CCE81C /* LearnWithMeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 373BD6BF275D272000CCE81C /* Build configuration list for PBXNativeTarget "LearnWithMeUITests" */;
-			buildPhases = (
-				373BD6AB275D272000CCE81C /* Sources */,
-				373BD6AC275D272000CCE81C /* Frameworks */,
-				373BD6AD275D272000CCE81C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				373BD6B1275D272000CCE81C /* PBXTargetDependency */,
-			);
-			name = LearnWithMeUITests;
-			productName = LearnWithMeUITests;
-			productReference = 373BD6AF275D272000CCE81C /* LearnWithMeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -601,10 +553,6 @@
 						CreatedOnToolsVersion = 13.1;
 					};
 					373BD6A4275D272000CCE81C = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 373BD68E275D271E00CCE81C;
-					};
-					373BD6AE275D272000CCE81C = {
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = 373BD68E275D271E00CCE81C;
 					};
@@ -631,7 +579,6 @@
 			targets = (
 				373BD68E275D271E00CCE81C /* LearnWithMe */,
 				373BD6A4275D272000CCE81C /* LearnWithMeTests */,
-				373BD6AE275D272000CCE81C /* LearnWithMeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -651,13 +598,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		373BD6A3275D272000CCE81C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		373BD6AD275D272000CCE81C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -733,16 +673,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				373BD6AA275D272000CCE81C /* LearnWithMeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		373BD6AB275D272000CCE81C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				373BD6B4275D272000CCE81C /* LearnWithMeUITests.swift in Sources */,
-				373BD6B6275D272000CCE81C /* LearnWithMeUITestsLaunchTests.swift in Sources */,
+				3754E121276A990B008B0B4B /* QuestionsServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,11 +684,6 @@
 			isa = PBXTargetDependency;
 			target = 373BD68E275D271E00CCE81C /* LearnWithMe */;
 			targetProxy = 373BD6A6275D272000CCE81C /* PBXContainerItemProxy */;
-		};
-		373BD6B1275D272000CCE81C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 373BD68E275D271E00CCE81C /* LearnWithMe */;
-			targetProxy = 373BD6B0275D272000CCE81C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -989,50 +915,6 @@
 			};
 			name = Release;
 		};
-		373BD6C0275D272000CCE81C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zidjesvudnemaskud.LearnWithMeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LearnWithMe;
-			};
-			name = Debug;
-		};
-		373BD6C1275D272000CCE81C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zidjesvudnemaskud.LearnWithMeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LearnWithMe;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1059,15 +941,6 @@
 			buildConfigurations = (
 				373BD6BD275D272000CCE81C /* Debug */,
 				373BD6BE275D272000CCE81C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		373BD6BF275D272000CCE81C /* Build configuration list for PBXNativeTarget "LearnWithMeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				373BD6C0275D272000CCE81C /* Debug */,
-				373BD6C1275D272000CCE81C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
