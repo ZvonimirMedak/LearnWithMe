@@ -29,7 +29,9 @@ extension QuestionsService {
     // MARK: - Internal properties
 
     var nextQuestion: Question? {
-        guard let randomQuestion = remainingQuestions.randomElement() else {
+        guard let randomQuestion = remainingQuestions.randomElement(),
+              (currentQuestion?.number ?? 0) < 5
+        else {
             return nil
         }
         currentQuestion = currentQuestion.isBlank ?

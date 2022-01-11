@@ -62,7 +62,7 @@ private extension LearningPresenter {
     func handleInitialLoad(_ configurator: ReplaySubject<LearningConfigurator, Never>) {
         let learningConfigurator = LearningConfigurator(
             definition: questionDifficulty.questions[0].text,
-            answer: questionDifficulty.questions[0].text,
+            answer: questionDifficulty.questions[0].answer,
             position: .first
         )
         configurator.send(learningConfigurator)
